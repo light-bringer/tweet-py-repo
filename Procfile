@@ -1,2 +1,2 @@
-web: gunicorn src/tweetme.wsgi 
+web: gunicorn src.tweetme.wsgi:application
 
